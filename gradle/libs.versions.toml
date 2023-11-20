@@ -1,0 +1,25 @@
+[versions]
+
+gradle = "8.1.2"
+kotlin = "1.9.10"
+
+core-ktx = "1.12.0"
+lifecycle = "2.6.2"
+
+
+[libraries]
+
+
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle" }
+
+
+# Dependencies of the included build-logic
+[plugins]
+
+androidApplication = { id = "com.android.application", version.ref = "gradle" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
+[bundles]
+
