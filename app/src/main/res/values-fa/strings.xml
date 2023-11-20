@@ -3,12 +3,9 @@
     <string name="app_name">Tools Test</string>
     <string name="dialog_note">متن دیالوگ است</string>
     <string name="dialog_title">عنوان</string>
+
     <string name="yes">بله</string>
     <string name="cancel">خیر</string>
 
 
-    <!--<string name="country_prompt">Choose a country</string>-->
-
-
 </resources>
-
