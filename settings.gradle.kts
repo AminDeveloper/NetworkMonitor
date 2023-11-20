@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "NetworkMonitor"
 include(":app")
- 
+include(":networkMonitor")
