@@ -27,7 +27,7 @@ class MainActivity : Activity(), TestObserver.ObserverTest {
         NetworkChangeReceiver.PingBeforeInform = true
         NetworkChangeReceiver.pingMechanism = { host, timeout -> Utils.isConnectedToThisServer(host,timeout) }
 
-        DefaultNetworkErrorDialog.startShowingDefaultNetworkErrorDialog(this)// Caused by: java.lang.SecurityException: ConnectivityService: Neither user 10082 nor current process has android.permission.ACCESS_NETWORK_STATE.
+        DefaultNetworkErrorDialog.startShowingDefaultNetworkErrorDialog(this)
         SmartLogger.initLogger(applicationContext)
         setContentView(R.layout.main_activity)
         testMethod()

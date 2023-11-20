@@ -194,7 +194,7 @@ public class Utils {
     public static boolean isNetworkAvailable(Context activity) {
         ConnectivityManager connectivityManager
                 = (ConnectivityManager) activity.getSystemService(Context.CONNECTIVITY_SERVICE);
-        NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();// Caused by: java.lang.SecurityException: ConnectivityService: Neither user 10082 nor current process has android.permission.ACCESS_NETWORK_STATE.
+        NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
         return activeNetworkInfo != null && activeNetworkInfo.isConnected();
     }
 
